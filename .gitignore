@@ -1,0 +1,50 @@
+# Various IDEs and Editors
+.vscode/
+.idea/
+**/*~
+
+# Mac OSX temporary files
+.DS_Store
+**/.DS_Store
+
+# dfx temporary files
+.dfx/
+
+# frontend code
+node_modules/
+dist/
+
+.database
+.dvm
+_out
+_out-dbg
+_output
+_build
+target
+node_modules
+.docusaurus
+
+**/*~
+result*
+
+/samples/**/*.txt
+
+**/*.mo.vpr
+test/viper/tmp
+
+enable-internals
+
+# Editor configuration
+*.swp
+*.swo
+Session.vim
+*.iml
+.idea
+.vscode
+.project
+.cproject
+.favorites.json
+.settings/
+
+# Mac OS
+*DS_STORE*
