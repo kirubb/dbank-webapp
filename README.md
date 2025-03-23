@@ -37,3 +37,18 @@ dfx canister call dbank checkBalance     # Check balance
 ## Access the web app
 
 Open the browser: http://localhost:8000
+
+## Info
+
+service : {
+
+  checkBalance: () -> (float64) query;
+  
+  compound: () -> () oneway;
+  
+  topUp: (float64) -> () oneway;
+  
+  withdraw: (float64) -> () oneway;
+  
+}
+
